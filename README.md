@@ -24,3 +24,5 @@ Sources & Credits
 
 Support:
     Arturo Bermejo - abermejo20@gmail.com
+
+License <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons BY-SA</a>
