@@ -1,0 +1,100 @@
+/*!
+ * Bootstrap Theme
+ * Project: Simple Resume Template
+ * Author: Arturo Bermejo
+ * Contact: abermejo20@gmail.com
+ * Copyright (c) 2013
+ */
+//@import "bootstrap.less";
+
+@import "../js/bxslider/jquery.bxslider.css";
+
+@innerPadding : 30px;
+@blueSteel : #3A87AD;
+@gray: #E7E7E7;
+
+body {
+    background-image: url('../img/bg.png'); 
+    background-color: #E5E5E5;
+    font-family: 'Lato', sans-serif !important;
+}
+
+a {
+    color: @blueSteel;
+}
+
+.main-wrapper {
+    width: 80%;
+    max-width: 650px;
+    background-color: white;
+    border: 1px solid @gray;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.62);
+    margin: 30px auto;
+    height: 100%;
+}
+
+#header {
+    border-bottom: 1px solid @gray;
+    border-radius: 5px 5px 0 0;
+    padding: @innerPadding;
+    h1 { color: black; }
+    #user-photo img {
+        width: 150px;
+    }
+    #user-contact-info {
+        padding: 10px 0 0 10px;
+        .email {
+            padding: 10px;
+            font-size: inherit;
+        }
+    }
+}
+
+#options {
+    float: left;
+    position: fixed;
+    .social a {
+        display: block;
+        padding: 10px;
+        background-color: #000;
+        color: #FFF;
+        margin-bottom: 20px;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+#body {
+    .section {
+        border: 1px dotted @gray;
+        padding: 20px @innerPadding;
+    }
+    .moocs {
+        margin-top: 20px;
+    }
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+}
+
+
+@media (max-width: 600px) {
+    body {
+        background-color: black;
+    }
+    .main-wrapper {
+        width: 90%;
+    }
+    #options {
+        float: none;
+        position: static;
+        text-align: center;
+        .social a {
+            display: inline;
+        }
+    }
+}
