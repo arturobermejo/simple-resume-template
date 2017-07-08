@@ -4,9 +4,8 @@ Simple Resume template built with Twitter Bootstrap.
 Demos:
 
 - http://simpleresume.herokuapp.com/
-- http://abermejo.github.io/
 
-<img src="http://i.minus.com/ipvFcjz0Vk4J.png" height="400" alt="" >
+<img src="https://preview.ibb.co/mjgM5F/resume_preview.png" alt="" >
 
 Features
 
